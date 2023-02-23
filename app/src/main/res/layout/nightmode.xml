@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="278dp"
+        android:layout_marginEnd="174dp"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="230dp"
+        android:text="Night Mode"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:elevation="2dp"
+        app:menu="@menu/item_menu"
+        android:background="@drawable/round_corner"
+        app:itemIconSize="30dp"
+
+        app:itemIconTint="@color/light_white"
+
+        app:labelVisibilityMode="unlabeled"
+
+        android:id="@+id/bottom_navigation"/>
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="85dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="398dp"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="225dp"
+        android:gravity="center"
+        android:text="Night Mode"
+
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:elevation="2dp"
+        app:menu="@menu/item_menu"
+        android:background="@drawable/round_corner"
+        app:itemIconSize="30dp"
+
+        app:itemIconTint="@color/light_white"
+
+        app:labelVisibilityMode="unlabeled"
+
+        android:id="@+id/bottom_navigation"/>
+</RelativeLayout>

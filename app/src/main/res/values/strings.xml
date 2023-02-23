@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">bottom</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit_content">Would you like to Exit?</string>
+    <string name="exit_caption">Exit application</string>
+</resources>
